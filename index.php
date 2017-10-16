@@ -53,6 +53,7 @@ class Calculato
 			return $sochan=$a;
 		else
 			echo '$a không là số chẵn' ;
+
 	}
 
 }
