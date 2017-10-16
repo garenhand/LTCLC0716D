@@ -15,5 +15,9 @@ class Calculato
     {
     	echo 'Hello '.$world;
     }
+    public function test()
+    {
+    	echo 'TESST';
+    }
 }
 ?>
