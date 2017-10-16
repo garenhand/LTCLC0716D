@@ -52,9 +52,27 @@ class Calculato
 		if($a/2==0)
 			return $sochan=$a;
 		else
-			echo '$a không là số chẵn' ;
+			echo $a ."không là số chẵn" ;
 
 	}
+	
+	public function giaiphuongtrinhbac2($a,$b,$c)
+	{
+		$kq="";
+		if($a==0)
+			return $kq=-$c/$b;
+		else
+			if($a<0)
+			{
+				return "Phương trình vô nghiệm";
+				return $kq;
+			}
+			else
+				echo "Phương trình có 2 nghiệm phân biệt ".$kq=(sqrc($b+$C)/(2*$a)). "và" .$kq=(sqrc($b-$C)/(2*$a)) ;
+		
+
+	}
+	
 
 }
 ?>
