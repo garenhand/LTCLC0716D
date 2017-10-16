@@ -7,7 +7,7 @@ class Calculato
     /**
      * summary
      */
-
+	
     public function __construct()
     {
         
@@ -44,6 +44,15 @@ class Calculato
 	{
 		$thuong=$a/$b;
 		return $thuong;
+	}
+	
+	public function sochan($a)
+	{
+		$sochan="";
+		if($a/2==0)
+			return $sochan=$a;
+		else
+			echo '$a không là số chẵn' ;
 	}
 
 }
