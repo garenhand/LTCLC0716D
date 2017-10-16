@@ -45,6 +45,10 @@ class Calculato
 		$thuong=$a/$b;
 		return $thuong;
 	}
+	public function kiemtrasochan($a)
+	{
+		echo 'So chan';
+	}
 
 }
 ?>
